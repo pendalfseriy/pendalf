@@ -1,0 +1,18 @@
+Host glock
+  HostName 95.79.96.138
+  User loopa
+  Port 2223
+Host 322
+  HostName 95.79.96.138
+  User pupa
+  Port 22322
+# sudo useradd pupa
+# sudo passwd pupa
+# Зайти под пользователем pupa, сгенерить ссх-ключ для пользователя pupa -> ssh-keygen
+# положить ключ (cat .ssh/id_rsa.pub) в профиль гитхаба (setings -> SSH and GPG keys -> new ssh key)
+# склонировать репу git clone <ссыль из гита>
+Bane
+# Git install
+sudo yum update -y
+sudo yum install git -y
+git --version
